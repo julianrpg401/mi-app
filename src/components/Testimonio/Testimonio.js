@@ -1,11 +1,13 @@
 import React from "react";
+import "./Testimonio.css";
+
 
 function Testimonio() {
   return(
     <div className="contenedor__testimonio">
       <img
         className="testimonio__imagen"
-        src={require("../img/testimonio-emma.png")}
+        src={require("../../img/testimonio-emma.png")}
         alt="Foto de Emma"
       />
       <div className="testimonio__texto">
@@ -17,4 +19,4 @@ function Testimonio() {
   );
 }
 
-export { Testimonio }
+export { Testimonio };

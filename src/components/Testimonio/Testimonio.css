@@ -1,0 +1,32 @@
+.contenedor__testimonio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 15rem;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.testimonio__imagen{
+    display: block;
+    width: 70%;
+    height: 15rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.testimonio__texto{
+    width: 100%;
+    height: max-content;
+    margin: 3rem;
+    font-size: .8rem;
+}
+
+.texto__nombre{
+    font-weight: 700;
+}
+
+.texto__empleo{
+    margin-bottom: .8rem;
+}
